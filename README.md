@@ -1,23 +1,42 @@
-# Raylib starter for this Mac
+# Block Dodge
 
-Open this whole folder in Visual Studio Code, then edit `main.cpp`.
+A simple 2D dodge game built using C++20 and raylib as part of my journey learning C++ and game development.
 
-- Press **F5** (or **fn + F5**) to build, run, and debug.
-- Press **Cmd + Shift + B** to build only.
-- If VS Code asks about workspace trust, trust this folder to enable its build tasks.
-- Move the ball with **WASD** or the **arrow keys**. **Esc** closes the window.
-- Set a breakpoint by clicking beside a line number, then press F5.
+The aim is to avoid falling blocks while practising movement, collision detection and basic game mechanics.
 
-From the VS Code terminal:
+## Features
 
-```sh
-bash build.sh
-./build/raylib-starter
-```
+- Player movement using WASD or arrow keys
+- Frame - independent movement using delta time
+- Normalised diagonal movement
+- Falling obstacles that reset their positions
+- Rectangle - based collision detection
+- Game - over system
+- Screen boundaries
+- FPS display
 
-Installed dependencies: Apple Clang (Command Line Tools), Homebrew raylib and pkgconf, Microsoft C/C++ extension, and CodeLLDB extension.
+## Technologies
 
-This example uses C++17 and raylib's C API. No CMake setup is needed.
+- C++20
+- raylib
 
-Raylib examples: https://www.raylib.com/examples.html
-Raylib reference: https://www.raylib.com/cheatsheet/cheatsheet.html
+## Controls
+
+| Key | Action |
+|-- - | -- - |
+| W / Up Arrow | Move up |
+| A / Left Arrow | Move left |
+| S / Down Arrow | Move down |
+| D / Right Arrow | Move right |
+
+## What I've Learnt
+
+This project helped me practise C++ fundamentals while learning how basic game systems work.
+
+I focused on handling player input, working with coordinates, using delta time for consistent movement and detecting collisions between objects.
+
+I also gained experience debugging errors, organising game logic and understanding how different parts of a game loop work together.
+
+## Disclaimer
+
+This game is by no means finished but I will continue to develop it overtime as my c++ knowledge grows, any ideas or tips would be helpful.
